@@ -1,0 +1,14 @@
+.landing-header {
+    background-image: url(../images/index/alexander-mils-honey-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    height: 350px;
+}
+
+.landing-logo {
+	display: block;
+	margin: auto;
+}

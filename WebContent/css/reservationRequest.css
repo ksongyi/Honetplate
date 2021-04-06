@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+     background-color: #f5f5f5 !important;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a i{ color: #1f1f1f; }
+
+.container{
+    width: 1200px;
+    height: 1500px;
+    text-align: center;
+}
+
+
+
+.store-name{
+    padding-top: 10px;
+    text-align: left;
+    font-weight: 500;
+    font-size:20px;
+    white-space: pre;
+    position: relative;
+    right: 40px;
+    color:black;
+}
+
+.store-hr{
+    border: none;
+    height: 2.2px;
+    background-color: #FFA726 ;
+    position: relative;
+    bottom:40px;
+    left: 10px;
+    text-align: center;
+}
+
+
+.reservation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reservation-info{
+    margin-right: 10px;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.reservation-container{
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#store-img{
+    border: solid rgb(161, 161, 161) 1px;
+    width: 500px;
+    height: 320px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.w-100 {
+  width: 100% !important;
+  height: 55vh;
+}
+
+.info-container{
+    margin-top: 7px;
+    border: solid rgb(161, 161, 161) 1px;
+    width: 500px;
+    height: 420px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white;
+}
+
+.info-text{
+	padding: 20px;
+    padding-top: 15px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 350;
+    color: rgb(24, 24, 24);
+    
+}
+
+.notice-container{
+    margin-top: 7px;
+    border: solid rgb(161, 161, 161) 1px;
+    width: 500px;
+    height: 230px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white;
+}
+
+.notice-text{
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 30px;
+    color: rgb(24, 24, 24);
+}
+
+.notice {
+    font-size: 1.7em;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 350;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: rgb(255, 59, 59);
+}
+
+.carousel{
+
+    border: solid rgb(161, 161, 161) 1px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+.datepicker .table-condensed {
+    background-color: white;
+    font-size: 14px;
+    width: 100%;
+    height:400px;
+}
+
+.datepicker-switch{
+    font-size: 20px;
+}
+
+.datepicker table tr td.active.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active.disabled:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active:active, .datepicker table tr td.active:hover, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active:hover:active, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active[disabled] {
+    background-color: #FEB95E !important;
+}
+
+.datepicker th{
+    padding: 15px !important;
+}
+.table{
+    margin-left: 10px;
+}
+
+
+
+
+
+
+.input-reservation-info {
+    margin-top: 7px;
+    border: solid rgb(161, 161, 161) 1px;
+    width: 100%;
+    height: 430px;
+    text-align: left;
+    background-color: white;
+}
+
+.input-reservation-info li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.input-reservation-info hr{
+    border: none;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(161, 161, 161);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.input-reservation-info input{
+    border: solid rgb(175, 175, 175) 1px;
+    border-radius: 2px;
+    padding:10px;
+    width: 300px;
+    height: 38px;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-top:5px
+}
+
+.input-reservation-info p, .input-reservation-info label {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0px 0px 50px;
+}
+
+
+
+
+#sum{
+    margin-right: 30px;
+}
+
+
+.customer-info{
+    margin-top: 7px;
+    border: solid rgb(161, 161, 161) 1px;
+    background-color: white;
+    height: 250px;
+}
+
+
+.customer-info li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.customer-info hr{
+    border: none;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(161, 161, 161);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.customer-info input{
+    border: solid rgb(175, 175, 175) 1px;
+    border-radius: 2px;
+    padding:10px;
+    width: 300px;
+    height: 38px;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-top:5px
+}
+
+
+.customer-info p,.customer-info label {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0px 0px 50px;
+}
+
+
+.consent-container{
+    margin-top: 7px;
+    height: 180px;
+    background-color: white;
+    border: solid rgb(161, 161, 161) 1px;
+}
+
+.consent-container li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.consent-container hr{
+    border: none;
+    width: 90%;
+    height: 1px;
+    background-color: rgb(161, 161, 161);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.consent-container label {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0px 0px 30px;
+}
+
+
+#inputState{
+    height: 45px;
+    margin:  0 25px;
+    font-size: 18px;
+}
+
+#submit-btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background-color:#FFA726 ;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    
+  
+}
+
+#submit-btn:hover{
+    background-color: #ffa938;
+}
+
+
+
+
+
+
+
+
+  .datepicker table {
+    margin: 0;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .datepicker table tr td,
+  .datepicker table tr th {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+  }
+  .table-striped .datepicker table tr td,
+  .table-striped .datepicker table tr th {
+    background-color: transparent;
+  }
+  .datepicker table tr td.old,
+  .datepicker table tr td.new {
+    color: #414141;
+  }
+  .datepicker table tr td.day:hover,
+  .datepicker table tr td.focused {
+    background: #eeeeee;
+    cursor: pointer;
+  }
+  .datepicker table tr td.disabled,
+  .datepicker table tr td.disabled:hover {
+    background: none;
+    color: #cacaca;
+    cursor: default;
+  }
+
+
+  .datepicker table tr td.today {
+    color: rgb(0, 0, 0);
+    background-color: #dfdfdf;
+    border-color: #ffb733;
+  }
+  .datepicker table tr td.today:focus,
+  .datepicker table tr td.today.focus {
+    color: #000;
+    background-color: #ffc966;
+    border-color: #b37400;
+  }
+  .datepicker table tr td.today:hover {
+    color: #000;
+    background-color: #ffc966;
+    border-color: #f59e00;
+  }
+  .datepicker table tr td.today:active,
+  .datepicker table tr td.today.active {
+    color: #000;
+    background-color: #ffc966;
+    border-color: #f59e00;
+  }
+  .datepicker table tr td.today:active:hover,
+  .datepicker table tr td.today.active:hover,
+  .datepicker table tr td.today:active:focus,
+  .datepicker table tr td.today.active:focus,
+  .datepicker table tr td.today:active.focus,
+  .datepicker table tr td.today.active.focus {
+    color: #000;
+    background-color: #ffbc42;
+    border-color: #b37400;
+  }
+  .datepicker table tr td.today.disabled:hover,
+  .datepicker table tr td.today[disabled]:hover,
+  fieldset[disabled] .datepicker table tr td.today:hover,
+  .datepicker table tr td.today.disabled:focus,
+  .datepicker table tr td.today[disabled]:focus,
+  fieldset[disabled] .datepicker table tr td.today:focus,
+  .datepicker table tr td.today.disabled.focus,
+  .datepicker table tr td.today[disabled].focus,
+  fieldset[disabled] .datepicker table tr td.today.focus {
+    background-color: #ffdb99;
+    border-color: #ffb733;
+  }
+  .datepicker table tr td.today.focused {
+    background: #ffc966;
+  }
+  .datepicker table tr td.today.disabled,
+  .datepicker table tr td.today.disabled:active {
+    background: #ffdb99;
+    color: #777777;
+  }
+  
+  .datepicker table tr td.selected,
+  .datepicker table tr td.selected.highlighted {
+    color: #fff;
+    background-color: #777777;
+    border-color: #555555;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  }
+
+
+  .datepicker table tr td.active:active,
+  .datepicker table tr td.active.highlighted:active,
+  .datepicker table tr td.active.active,
+  .datepicker table tr td.active.highlighted.active {
+      
+    color: rgb(255, 255, 255);
+  }
+
+  .datepicker table tr td span {
+    display: block;
+    width: 23%;
+    height: 54px;
+    line-height: 54px;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  .datepicker .datepicker-switch {
+    width: 145px;
+  }
+
+  .datepicker .prev,
+  .datepicker .next {
+    cursor: pointer;
+  }
+
+  /*# sourceMappingURL=bootstrap-datepicker3.standalone.css.map */
+
+.datepicker {
+    border: solid rgb(199, 199, 199) .1px;
+    font-weight: 500;
+}

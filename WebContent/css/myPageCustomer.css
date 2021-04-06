@@ -1,0 +1,478 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+     background-color: #f5f5f5 !important;
+     font-family: 'Noto Sans KR', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a i{ color: #1f1f1f; }
+
+.mypage-container{
+	font-family: 'Noto Sans KR', sans-serif;
+    width: 1200px;
+    height: 1300px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: white;
+    display: flex;
+}
+
+.mypage-menu{
+    width: 38%;
+    height:700px;
+    display: inline-block;
+    margin-top: 150px;
+    margin-left: 28px;
+    
+}
+
+.mypage-menu li{
+    text-align: left;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.mypage-menu hr{
+    height: 1px;
+    background-color: rgb(163, 160, 160);
+    width: 80%;
+}
+
+.mypage-menu a{
+    text-decoration: none;
+    color: black;
+}
+
+.mypage-menu button{
+    background-color: transparent;
+    color: black;
+}
+
+.mypage-myinfo{
+    width: 55%;
+    text-align: center;
+    /* display: none; */
+}
+
+.mypage-myinfo table{
+    margin: 150px auto 0 auto;
+    width: 550px;
+    height: 600px;
+    border-collapse: collapse;
+    border-top: 1px solid #7c7c7c;
+    border-bottom: 1px solid #7c7c7c;
+}
+
+.mypage-myinfo th,td{
+    border-top: 1px solid #bebebe;
+}
+
+.mypage-myinfo th{
+    background-color: #22222213;
+}
+
+.mypage-myinfo tr:last-child{
+    background-color: #22222213;
+}
+
+#logout-btn{
+    margin-top: 35px;
+    width: 150px;
+    height: 50px;
+    background-color: #ffb95e;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+  
+}
+
+#logout-btn:hover{
+    background-color: #ffa938;
+}
+
+
+
+.myinfo-update{
+    width: 55%;
+    text-align: center;
+    display: none;
+}
+
+.myinfo-update table{
+    margin: 150px auto 0 auto;
+    width: 550px;
+    height: 600px;
+    border-collapse: collapse;
+    border-top: 1px solid #7c7c7c;
+    border-bottom: 1px solid #7c7c7c;
+}
+
+.myinfo-update th,td{
+    border-top: 1px solid #bebebe;
+}
+
+.myinfo-update th{
+    background-color: #22222213;
+}
+
+.myinfo-update tr:last-child{
+    background-color: #22222213;
+}
+
+.update-p {
+    margin-top: 0;
+    text-align: right;
+    font-size: 14px;
+    color: red;
+    margin-right: 25px;
+    margin-bottom: 0;
+    display:none;
+}
+
+#update-email, #update-phone{
+	margin-bottom:10px;
+}
+
+.myinfo-update input[type=email]{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.myinfo-update input[type=tel]{
+    width: 260px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#update-btn{
+    margin-top: 35px;
+    width: 150px;
+    height: 50px;
+    background-color: #ffb95e;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+  
+}
+
+#update-btn:hover{
+    background-color: #ffa938;
+}
+
+
+
+.password-update{
+    display: inline-block;
+    width: 55%;
+    margin-top: 170px;
+    display: none;
+}
+
+.password-update form{
+    padding: 40px;
+    text-align: left;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.form-group p{
+    text-align: right;
+    color: rgb(255, 65, 65);
+    display: none;
+}
+
+.form-group label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form-control{
+    height: 45px;
+}
+
+.alert-p{
+	display:block !important;
+}
+
+#password-update-btn{
+    margin-top: 35px;
+    width: 150px;
+    height: 50px;
+    background-color: #ffb95e;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+      
+}
+
+#password-update-btn:hover{
+    background-color: #ffa938;
+}
+
+
+
+.reservation-list{
+    background-color: rgba(218, 218, 218, 0.212);
+    width: 55%;
+    height: 800px;
+    margin-top: 120px;
+    border-radius: 10px;
+    text-align: center;
+    display: none;
+}
+
+.reservation-list ul{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.reservation-list-title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.reservation-list-title h2{
+    color: #333333;
+}
+
+
+.reservation-list-title hr{
+    height: .5px;
+    background-color: rgb(230, 230, 230);
+    width: 30%;
+}
+
+.reservation-list li{
+    display: flex;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.reservation-list li i{
+    color: #ffa938;
+    padding: 20px;
+    padding-right: 5px;
+}
+
+.reservation-list p{
+    margin-top: 15px;
+}
+
+.reservation-list p:nth-child(even){
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.reservation-list p:nth-child(odd){
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.pageBar{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#payment-btn{
+    width: 180px;
+    height: 50px;
+    background-color: #ffb95e;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    color: white;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+#payment-btn:hover{
+    background-color: #ffa938;
+}
+
+.pageBar i{
+    color: #ffa938;
+    font-size: 35px;
+    padding:12px;
+}
+
+.pageBar button{
+    background-color: transparent;
+}
+
+.page-num{
+	text-align: right;
+	margin-right: 50px;
+}
+
+.review-list{
+    width: 57%;
+    height: 1220px;
+    margin-top: 50px;
+    background-color: rgba(192, 192, 192, 0.178);
+    padding: 20px;
+    display: none; 
+}
+
+.review{
+    width: 95%;
+    text-align: left;
+    padding: 15px;
+    margin-top: 25px;
+    overflow: hidden;
+}
+
+.review hr{
+    border-top: solid gray 2px;
+    margin: 0;
+    padding: 0;
+}
+#store_name{
+    margin: 0 20px 10px 20px;
+}
+
+.review-content{
+    width: 95%;
+    margin: 20px;
+}
+
+#delete-btn{
+    margin-left: 350px;
+}
+
+.review-btn{
+    padding: 10px;
+   	font-size:18px;
+    margin-left: 450px;
+	margin-bottom:20px;
+    width:120px;
+    background-color:transparent; 
+}
+
+.stars{
+    color: #ffdf95;
+    margin: 0;
+    margin-left: 15px;
+    display:inline-block;
+}
+
+.review-page-ul {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.review-date{
+	text-align: right;
+	margin:0;
+}
+
+.review-next{
+    background-color: transparent;
+}
+.review-next i{
+    color: #ffa938;
+    font-size: 50px;
+    margin: 0px 50px 20px 50px;
+}
+
+.review-page-ul{
+	margin:0 auto;
+}
+
+.bookmark-list{
+    width: 50%;
+    margin-top: 150px;
+    display: none; 
+}
+
+.bookmark{
+	margin: 20px 0px 20px 0px;
+}
+
+.bookmark-container{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content:space-between;
+    width: 95%;
+    height: 150px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px;
+}
+
+.bookmark-text{
+	padding: 20px;
+	margin-right: 120px;
+}
+
+.bookmark-text h4{
+    margin-bottom: 20px;
+}
+.bookmark-img{
+    width: 120px;
+    height: 120px;
+}
+
+.bookmark-btn{
+    background-color: transparent;
+    font-size: 25px;
+    margin-top: 5px;
+    color:#FFA726;
+}
+
+.bookmark-container li:last-child{
+	text-align:right;
+	margin-right: 20px;
+}
+
+
+
+.withdrawal{
+    background-color: #f3f3f380;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+    margin-top: 200px;
+    border-radius: 5px;
+    display: none;
+}
+
+.withdrawal form{
+    padding: 30px;
+}
+
+
+.withdrawal input{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 15px;
+}

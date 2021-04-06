@@ -1,0 +1,51 @@
+.store-update-container{
+    height: 1400px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(212, 212, 212, 0.226);
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+form{
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+li{
+    list-style: none;
+    margin: 25px;
+}
+
+.submit-cotainer{
+    width: 100%;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+.btn-warning{
+    width: 200px;
+    height: 50px;
+}
+
+h2{
+    font-weight: 550;
+    margin-left: 60px;
+}
+
+hr{
+    border-top: solid 2px black;
+    width: 90%;
+}
+
+.text-muted {
+    color: #ff2121!important;
+    display: none;
+}
+
+.text-show{
+	display:inline-block;
+}

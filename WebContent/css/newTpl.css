@@ -1,0 +1,281 @@
+/* Fonts Start */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Fonts End */
+
+/* Web page size */
+html {
+    /* 웹 사이즈 체크를 위한 border 설정. 지워도 되지만, 
+       계속 사이즈 체크하면서 구현할 수 있도록 
+       웬만하면 주석처리 설정으로 부탁드립니다.
+       html style 속성 중 border를 제외한 나머지는 절대 건들지 말아주세요. */
+    /* border: 3px solid tomato; */
+    background-color: #fff;
+    width: 1920px;
+    margin: 0 auto;
+}
+
+/* Preloader Start */
+.preloader {
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s;
+    margin: 0 auto
+}
+
+.preloader .preloader-circle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: #FEB95E;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    z-index: 10;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+    box-shadow: 0 1px 5px 0 rgba(35, 181, 185, 0.15);
+    background-color: #fff;
+    -webkit-animation: zoom 2000ms infinite ease;
+    animation: zoom 2000ms infinite ease;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s
+}
+
+.preloader .preloader-img {
+    position: absolute;
+    top: 50%;
+    z-index: 200;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 6px;
+    -webkit-transition: .6s;
+    -o-transition: .6s;
+    transition: .6s
+}
+
+.preloader .preloader-img img {
+    max-width: 55px
+}
+
+.preloader .pere-text strong {
+    font-weight: 800;
+    color: #dca73a;
+    text-transform: uppercase
+}
+
+@-webkit-keyframes zoom {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s
+    }
+}
+
+@keyframes zoom {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        -webkit-transition: .6s;
+        -o-transition: .6s;
+        transition: .6s
+    }
+}
+
+/* Preloader End */
+
+/* Header Start */
+/* logo Start */
+header {
+    background: #FFA726;
+    height: 150px;
+    width: 100%;
+    z-index: 9999;
+    position: relative;
+    top: 0px;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 75px;
+    /* border: 1px solid red; */
+    position: relative;
+    top: 20px;
+}
+
+.logo img {
+    width: 95px;
+
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: 'yg-jalnan', sans-serif;
+    color: #313540;
+}
+
+.logo p {
+	display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 45px;
+    position: relative;
+    top: 15px;
+}
+
+/* logo end */
+
+/* navigation start */
+nav {
+    float: right;
+    margin-top: 65px;
+    margin-right: 75px;
+}
+
+nav a {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #313540;
+    font-size: 1em;
+    text-decoration: none !important;
+}
+
+.signup {
+    border: 1.3px solid #70411a;
+    border-radius: 6px;
+}
+
+nav a {
+    padding: 3px 10px;
+    transition: .3s;
+    border-radius: 6px;
+    color: #70411a;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.signup:hover {
+    border-color: #000;
+}
+
+.fix {
+    position: fixed;
+    animation: down 0.5s ease
+}
+
+@keyframes down {
+    0% {
+        transform: translateY(-50px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+/* navigation end */
+/* Header End */
+
+
+
+/* section start */
+section {
+    padding: 80px 100px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* section end */
+
+
+
+/* footer start */
+footer {
+    height: 250px;
+    background-color: #565656;
+}
+
+.footer-logo,
+.footer-menu,
+.social-media-icon {
+    display: inline-block;
+}
+
+.footer-logo>h2 {
+    font-family: 'yg-jalnan', sans-serif;
+    color: #feb95e;
+    font-size: 3em;
+    position: relative;
+    top: 100px;
+    left: 75px;
+}
+
+.footer-menu a {
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    position: relative;
+    top: 90px;
+    margin-left: 450px;
+}
+
+.footer-menu > a:hover {
+	color: #fff !important;
+}
+
+.social-media-icon {
+    float: right;
+    margin-top: 110px;
+    margin-right: 75px;
+}
+
+.social-media-icon a {
+    margin: 0 5px;
+}
+
+.social-media-icon i {
+	color: #fff;
+}
+
+/* footer end */
